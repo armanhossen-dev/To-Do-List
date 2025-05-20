@@ -18,6 +18,7 @@ function AddTask() {
         let li = document.createElement("li");
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
+        
         // adding cancel icon
         let span = document.createElement("span");
         span.innerHTML = "\u00d7"; // Cross symbol
@@ -46,12 +47,12 @@ listContainer.addEventListener("click", function(e){
 }, false);
 
 
-// to store data in the browser , saving data 
+// Saving data in the browser, saving data
 function saveData(){
     localStorage.setItem("data", listContainer.innerHTML);
 }
 
-//display that data when we open this page on browser
+// Display local data whenever this page is open in browser same browser before.
 function showTask(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
