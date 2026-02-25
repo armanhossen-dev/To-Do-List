@@ -18,10 +18,8 @@ function AddTask() {
         let li = document.createElement("li");
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
-        
-        // adding cancel icon
         let span = document.createElement("span");
-        span.innerHTML = "\u00d7"; // Cross symbol
+        span.innerHTML = "&times;";
         li.appendChild(span);
     }
     inputBox.value = '';
