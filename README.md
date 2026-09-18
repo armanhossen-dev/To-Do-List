@@ -2,7 +2,8 @@
 
 A minimal, lightweight, and user-friendly task manager designed to keep your everyday tasks organized. Built as a web application with persistent local storage, it can also be packaged and run as a native macOS desktop app.
 
-[![Mac Release](https://img.shields.io/badge/Mac%20Release-v1.0.0-blue.svg?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/armanhossen-dev/To-Do-List/releases/tag/v1.0.0)[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-cloudtasks.vercel.app-brightgreen?style=for-the-badge)](https://cloudtasks.vercel.app)
+[![Mac Release](https://img.shields.io/badge/Mac%20Release-v1.0.0-blue.svg?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/armanhossen-dev/To-Do-List/releases/tag/v1.0.0)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-cloudtasks.vercel.app-brightgreen?style=for-the-badge)](https://cloudtasks.vercel.app)
 
 ---
 
@@ -49,3 +50,4 @@ npm install -g pake-cli
 
 # Package the Web App into a macOS App
 pake [https://cloudtasks.vercel.app](https://cloudtasks.vercel.app) --name "Local Task"
+```
